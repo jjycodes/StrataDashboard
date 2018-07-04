@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "Buildings";
+}
+
+<h2>Buildings</h2>
+<div class="panel panel-default" ng-controller="buildings.list as vm">
+    <table>
+        <thead>
+            <tr>
+                <td>
+                    Strata Plan Number
+                </td>
+                <td>Building Display</td>
+                <td>PostCode</td>
+                <td>Local Government</td>
+                <td>Lots</td>
+                <td>Strata Manager</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="building in vm.buildings">
+                <td>
+                    {{building.strataPlanNumber}}
+                </td>
+                <td>{{building.buildingDisplay}}</td>
+                <td>{{building.postCode}}</td>
+                <td>{{building.localGovernment}}</td>
+                <td>{{building.numberOfLots}}</td>
+                <td>{{building.strataManager}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

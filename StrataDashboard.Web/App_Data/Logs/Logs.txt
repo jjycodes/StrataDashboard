@@ -1,0 +1,751 @@
+DEBUG 2018-07-04 11:21:26,923 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 11:21:26,936 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 11:21:26,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:26,946 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 11:21:27,208 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:21:28,966 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 11:21:29,010 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 11:21:29,012 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 11:21:29,016 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 11:21:29,151 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2018-07-04 11:21:29,389 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 11:21:29,420 [5    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 11:26:45,044 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 11:26:45,281 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 11:26:45,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,293 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 11:26:45,799 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:26:45,982 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 11:26:46,016 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 11:26:46,018 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 11:26:46,021 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 11:26:46,289 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2018-07-04 11:26:49,875 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 11:26:49,908 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 11:27:23,581 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 11:27:23,792 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 11:27:23,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:23,802 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 11:27:24,248 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 11:27:24,426 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 11:27:24,461 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 11:27:24,464 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 11:27:24,468 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 11:27:24,734 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2018-07-04 11:27:27,698 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 11:27:27,727 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 13:23:58,277 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:23:58,290 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:23:58,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,297 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,298 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:23:58,302 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:23:58,570 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:24:31,792 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2018-07-04 13:24:31,824 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:24:31,826 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:24:31,964 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:24:31,990 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+DEBUG 2018-07-04 13:26:05,900 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:26:05,923 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:26:05,928 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,931 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:05,934 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:26:06,201 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:26:09,615 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2018-07-04 13:26:09,644 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:26:09,646 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:26:09,788 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:26:09,812 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+ERROR 2018-07-04 13:26:13,348 [7    ] Web.Mvc.Controllers.AbpScriptsController - Can not find a source with name: StrataDashboard
+Abp.AbpException: Can not find a source with name: StrataDashboard
+   at Abp.Localization.LocalizationManager.GetSource(String name)
+   at Abp.Localization.LocalizableString.Localize(ILocalizationContext context)
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition, ILocalizationContext localizationContext)
+   at Abp.Application.Navigation.UserNavigationManager.<FillUserMenuItems>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Application.Navigation.UserNavigationManager.<GetMenuAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Application.Navigation.UserNavigationManager.<GetMenusAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Web.Navigation.NavigationScriptManager.<GetScriptAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-04 13:28:53,853 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:28:53,867 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:28:53,873 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,875 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,876 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:28:53,879 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:28:54,149 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:29:29,139 [1    ] Abp.Localization.LocalizationManager     - Initializing 2 localization sources.
+DEBUG 2018-07-04 13:29:29,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:29:29,172 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:29:29,302 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:29:29,327 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+ERROR 2018-07-04 13:29:33,334 [12   ] Web.Mvc.Controllers.AbpScriptsController - Can not find a source with name: 
+Abp.AbpException: Can not find a source with name: 
+   at Abp.Localization.LocalizationManager.GetSource(String name)
+   at Abp.Localization.LocalizableString.Localize(ILocalizationContext context)
+   at Abp.Application.Navigation.UserMenuItem..ctor(MenuItemDefinition menuItemDefinition, ILocalizationContext localizationContext)
+   at Abp.Application.Navigation.UserNavigationManager.<FillUserMenuItems>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Application.Navigation.UserNavigationManager.<GetMenuAsync>d__8.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Application.Navigation.UserNavigationManager.<GetMenusAsync>d__9.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Web.Navigation.NavigationScriptManager.<GetScriptAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Web.Mvc.Controllers.AbpScriptsController.<GetScripts>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass8_0.<BeginInvokeAsynchronousActionMethod>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-04 13:32:49,859 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:32:49,872 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:32:49,878 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,880 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:49,886 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:32:50,193 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:32:51,937 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 13:32:51,973 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:32:51,977 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:32:51,981 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 13:32:52,127 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:32:52,166 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 13:32:55,887 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 13:32:55,924 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 13:32:55,965 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 13:33:29,529 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+ERROR 2018-07-04 13:35:32,397 [9    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+ERROR 2018-07-04 13:35:37,118 [18   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+WARN  2018-07-04 13:36:32,520 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+DEBUG 2018-07-04 13:38:31,002 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:38:31,346 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:38:31,354 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,355 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:31,360 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:38:31,905 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:38:32,166 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 13:38:32,198 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:38:32,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:38:32,203 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 13:38:32,528 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:38:32,602 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 13:38:35,757 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 13:38:35,801 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 13:38:35,845 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2018-07-04 13:39:01,170 [11   ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+DEBUG 2018-07-04 13:40:22,034 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:40:22,321 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:40:22,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,330 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:22,333 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:40:22,996 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:40:23,376 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 13:40:23,430 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:40:23,434 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:40:23,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 13:40:23,847 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:40:23,921 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 13:40:27,430 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 13:40:27,489 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 13:40:27,530 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2018-07-04 13:40:37,533 [6    ] Web.Mvc.Controllers.AbpAppViewController - The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+System.InvalidOperationException: The view '~/App/Main/views/buildings/list.cshtml' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/App/Main/views/buildings/list.cshtml
+   at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+WARN  2018-07-04 13:40:42,620 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+DEBUG 2018-07-04 13:42:42,010 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:42:42,025 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:42:42,032 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,035 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:42,041 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:42:42,373 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:42:44,029 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 13:42:44,059 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:42:44,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:42:44,064 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 13:42:44,189 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:42:44,218 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 13:42:48,925 [6    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 13:42:48,966 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 13:42:48,999 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 13:59:07,150 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 13:59:07,162 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 13:59:07,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:07,173 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 13:59:07,448 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 13:59:09,041 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 13:59:09,073 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 13:59:09,075 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 13:59:09,078 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 13:59:09,199 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 13:59:09,223 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 13:59:13,279 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 13:59:13,313 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 13:59:13,344 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 14:09:13,246 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:09:13,260 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:09:13,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,267 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,268 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:13,272 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:09:13,546 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:09:15,195 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:09:15,239 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:09:15,241 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:09:15,243 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:09:15,368 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:09:15,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:09:19,495 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:09:19,531 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:09:19,559 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 14:16:12,670 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:16:12,684 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:16:12,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,692 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:12,695 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:16:12,968 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:16:14,590 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:16:14,626 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:16:14,628 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:16:14,631 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:16:14,777 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:16:14,800 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:16:18,128 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:16:18,162 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:16:18,190 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 14:21:58,805 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:21:58,818 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:21:58,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,825 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,826 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,827 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:21:58,830 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:21:59,112 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:22:00,821 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:22:00,852 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:22:00,862 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:22:00,865 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:22:01,016 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:22:01,043 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:22:05,086 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:22:05,116 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:22:05,141 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 14:25:29,231 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:25:29,247 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:25:29,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,256 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:29,258 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:25:29,528 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:25:31,153 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:25:31,183 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:25:31,186 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:25:31,190 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:25:31,320 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:25:31,347 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:25:34,859 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:25:34,896 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:25:34,922 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 14:29:49,826 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:29:49,839 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:29:49,843 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,845 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,846 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:49,849 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:29:50,111 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:29:51,663 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:29:51,692 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:29:51,694 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:29:51,696 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:29:51,814 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:29:51,838 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:29:55,001 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:29:55,039 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:29:55,071 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2018-07-04 14:37:16,360 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:37:16,646 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:37:16,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:16,662 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:37:17,235 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:37:17,498 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:37:17,533 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:37:17,535 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:37:17,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:37:17,817 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:37:17,869 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+DEBUG 2018-07-04 14:38:03,870 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:38:04,133 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:38:04,138 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,140 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,141 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,142 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,145 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:38:04,586 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:38:04,819 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:38:04,851 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:38:04,853 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:38:04,855 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:38:05,097 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:38:05,159 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:38:10,510 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:38:10,534 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:38:10,560 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:42:14,189 [23   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:46:13,880 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+ERROR 2018-07-04 14:47:51,061 [24   ] nHandling.AbpApiExceptionFilterAttribute - A task was canceled.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-07-04 14:47:51,062 [14   ] nHandling.AbpApiExceptionFilterAttribute - A task was canceled.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-07-04 14:47:51,061 [13   ] nHandling.AbpApiExceptionFilterAttribute - A task was canceled.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+ERROR 2018-07-04 14:47:51,062 [32   ] nHandling.AbpApiExceptionFilterAttribute - A task was canceled.
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+DEBUG 2018-07-04 14:59:50,437 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 14:59:50,449 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 14:59:50,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,458 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,459 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:50,462 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 14:59:50,724 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 14:59:52,378 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 14:59:52,408 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 14:59:52,410 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 14:59:52,412 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 14:59:52,537 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 14:59:52,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 14:59:56,022 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 14:59:56,061 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 14:59:56,094 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 15:00:49,752 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 15:01:25,893 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 15:01:37,264 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 15:03:42,058 [40   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+DEBUG 2018-07-04 15:23:45,187 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-04 15:23:45,200 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2018-07-04 15:23:45,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.Web.StrataDashboardWebModule, StrataDashboard.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardDataModule, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardCoreModule, StrataDashboard.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardApplicationModule, StrataDashboard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: StrataDashboard.StrataDashboardWebApiModule, StrataDashboard.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.6.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:45,216 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2018-07-04 15:23:45,526 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: StrataDashboard.EntityFramework.StrataDashboardDbContext, StrataDashboard.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-04 15:23:49,255 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-04 15:23:49,284 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-04 15:23:49,286 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-04 15:23:49,289 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: StrataDashboard
+DEBUG 2018-07-04 15:23:49,415 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-04 15:23:49,441 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'StrataDashboard.IBuildingsService' with service name 'app/buildingsService'.
+WARN  2018-07-04 15:23:53,610 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
+WARN  2018-07-04 15:23:53,641 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 15:23:53,667 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2018-07-04 15:24:33,675 [8    ] naries.DictionaryBasedLocalizationSource - Can not find 'Buildings' in localization source 'StrataDashboard'!
